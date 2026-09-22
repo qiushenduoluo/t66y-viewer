@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <title>网页投射</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <strong>网页投射</strong>
+    <div class="actions">
+      <button id="reload" type="button" title="刷新">&#8635;</button>
+      <a href="https://www.t66y.com/index.php" target="_blank" rel="noopener noreferrer">直接打开</a>
+    </div>
+  </header>
+  <main>
+    <iframe id="site" src="https://www.t66y.com/index.php" title="投射网页" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
